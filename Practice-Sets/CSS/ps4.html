@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice set 4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .header{
+            height: 7vh;
+            background-color: rgb(76, 35, 7);
+            color: white;
+        }
+
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+
+        li{
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        .main{
+            display: flex;
+            height: 80vh;
+        }
+
+        .red{
+            background-color: rgb(255, 218, 183);
+            width: 70vw;
+        }
+        .sideImg{
+            background-image: url(https://www.cookwithmanali.com/wp-content/uploads/2017/04/Best-Eggless-Brownies-Recipe.jpg);
+            background-position: center;
+            width: 30vw;
+        }
+
+        .footer{
+            height: 25vh;
+            background-color: rgb(37, 37, 37);
+            color: white;
+            text-align: center;
+            font-family: "baloo-bhai-2" 'Times New Roman', Times, serif ;
+            text-transform: uppercase;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .class1{
+            visibility: hidden;
+            /* display: none; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <ul>
+            <li>Home</li>
+            <li>Explore</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Profile</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="red">
+            <h2>Brownies</h2>
+            <p>Are you craving brownies or looking for a recipe? Let me know what you need—classic fudgy, chewy, or something unique like caramel swirl or peanut butter brownies!</p>
+            <ol>
+                <li><a href="https://amandacooksandstyles.com/classic-brownie-recipe/">Classic Brownies</a></li>
+                <li><a href="https://www.recipetineats.com/easy-chocolate-brownies/">Chocolate loaded Brownies</a></li>
+                <li><a href="https://theloopywhisk.com/2019/01/09/super-fudgy-healthy-brownies/">Healthy Brownies</a></li>
+                <li><a href="https://www.urbanbakes.com/walnut-brownies/">Walnut Brownies</a></li>
+                <li><a href="https://www.allrecipes.com/recipe/159329/easy-banana-brownies/">Banana Brownies</a></li>
+            </ol>
+
+            <p class="class1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente natus nostrum excepturi! Porro necessitatibus ab quasi non magni aspernatur, doloremque delectus eos tempora veritatis. Soluta nobis totam ex molestias fugiat recusandae quos quo sint magnam. Quo provident quaerat laudantium est itaque ipsum suscipit magnam saepe!</p>
+            <p>Some more information!</p>
+        </div>
+
+        <div class="sideImg">
+        </div>
+    </div> 
+
+    <div class="footer">
+        <ul>
+            <li>Home</li>
+            <li>Explore</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Profile</li>
+        </ul>
+        <p>Copyrights  2025 Manasi Doiphode</p>
+    </div>
+
+</body>
+</html>
